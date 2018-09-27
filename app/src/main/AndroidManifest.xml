@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ydimall.butterknife">
+
+    <uses-sdk android:minSdkVersion="8"></uses-sdk>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".MainSecondActivity"
+            android:label="@string/title_activity_main2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--value的值填写你在友盟后台申请的应用Appkey-->
+        <meta-data android:name="UMENG_APPKEY" android:value="5b9b5dd0a40fa327020000c7" />
+
+        <!--value的值填写渠道名称，例如yingyongbao。这里设置动态渠道变量-->
+        <!--meta-data android:name="UMENG_CHANNEL" android:value="${UMENG_CHANNEL_VALUE}" /-->
+        <meta-data android:value="yingyongbao" android:name="UMENG_CHANNEL"/>
+
+    </application>
+
+</manifest>
