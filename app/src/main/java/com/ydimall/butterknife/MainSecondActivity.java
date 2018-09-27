@@ -94,7 +94,7 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d("TAG","onPause");
+        Log.d("TAG","onStop");
     }
 
     public void Dialog(String msg) {
