@@ -86,6 +86,7 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
 
     @Override
     protected void onPause() {
+        Log.d("TAG","onPause");
         super.onPause();
         MobclickAgent.onPause(this);
     }
