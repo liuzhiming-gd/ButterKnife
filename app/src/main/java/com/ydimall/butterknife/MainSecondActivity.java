@@ -91,6 +91,12 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
         MobclickAgent.onPause(this);
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.d("TAG","onPause");
+    }
+
     public void Dialog(String msg) {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder
