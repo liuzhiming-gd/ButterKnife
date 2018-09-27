@@ -78,6 +78,7 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
     @Override
     protected void onPostResume() {
         super.onPostResume();
+        Log.d("TAG","onResume");
         // 友盟统计
         MobclickAgent.onResume(this);
 
