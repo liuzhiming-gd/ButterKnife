@@ -29,6 +29,9 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
 
     private TextView mTextMessage;
     private Integer SJFLJ;
+    private String guangdong;
+
+
 
     @NonNull
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -110,6 +113,21 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
         //合并Liu
         Log.d("TAG","onRestart");
         Log.d("TAG","onRestart2");
+    }
+    //Zhi分支 函数,,合并远程分支master to liu
+    public void setMessage(){
+        String msg="I in Zhi";
+    }
+
+////
+    public String getGuangdong() {
+        //gettetr函数
+        return guangdong="guangdong";
+    }
+
+    public void setGuangdong(String guangdong) {
+        //settetr函数
+        this.guangdong = guangdong;
     }
 
     public void Dialog(String msg) {
