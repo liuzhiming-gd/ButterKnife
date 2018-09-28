@@ -120,6 +120,11 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
         return guangdong="guangdong";
     }
 
+    public void setGuangdong(String guangdong) {
+        //settetr函数
+        this.guangdong = guangdong;
+    }
+
     public void Dialog(String msg) {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder
