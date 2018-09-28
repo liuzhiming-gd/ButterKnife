@@ -114,7 +114,7 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
         Log.d("TAG","onRestart2");
     }
 
-
+//
     public String getGuangdong() {
         //gettetr函数
         return guangdong="guangdong";
