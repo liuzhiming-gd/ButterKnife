@@ -104,6 +104,11 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
         Log.d("TAG","onDestroy2");
     }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
+
     public void Dialog(String msg) {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder
