@@ -110,8 +110,13 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
     @Override
     protected void onRestart() {
         super.onRestart();
+        //合并Liu
         Log.d("TAG","onRestart");
         Log.d("TAG","onRestart2");
+    }
+    //Zhi分支 函数
+    public void setMessage(){
+        String msg="I in Zhi";
     }
 
 //
