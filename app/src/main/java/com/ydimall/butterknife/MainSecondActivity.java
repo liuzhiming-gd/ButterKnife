@@ -122,7 +122,7 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
         String msg="I in Zhi";
     }
 
-    /////Guangdong
+    //////Guangdong
     public String getGuangdong() {
         //gettetr函数
         return guangdong="guangdong";
