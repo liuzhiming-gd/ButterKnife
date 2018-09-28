@@ -108,6 +108,7 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
     protected void onRestart() {
         super.onRestart();
         Log.d("TAG","onRestart");
+        Log.d("TAG","onRestart2");
     }
 
     public void Dialog(String msg) {
