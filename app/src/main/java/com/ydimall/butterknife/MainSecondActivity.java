@@ -29,6 +29,9 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
 
     private TextView mTextMessage;
     private Integer SJFLJ;
+    private String guangdong;
+
+
 
     @NonNull
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -109,6 +112,12 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
         super.onRestart();
         Log.d("TAG","onRestart");
         Log.d("TAG","onRestart2");
+    }
+
+
+    public String getGuangdong() {
+        //gettetr函数
+        return guangdong="guangdong";
     }
 
     public void Dialog(String msg) {
