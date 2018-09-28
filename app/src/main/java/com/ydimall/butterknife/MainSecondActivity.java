@@ -111,6 +111,10 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
         Log.d("TAG","onRestart");
         Log.d("TAG","onRestart2");
     }
+    //Zhi分支 函数
+    public void setMessage(){
+        String msg="I in Zhi";
+    }
 
     public void Dialog(String msg) {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
