@@ -101,6 +101,7 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
     protected void onDestroy() {
         super.onDestroy();
         Log.d("TAG","onDestroy");
+        Log.d("TAG","onDestroy2");
     }
 
     public void Dialog(String msg) {
