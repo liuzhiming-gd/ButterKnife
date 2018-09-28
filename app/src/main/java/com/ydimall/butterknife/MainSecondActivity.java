@@ -30,6 +30,7 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
     private TextView mTextMessage;
     private Integer SJFLJ;
     private String guangdong;
+    private String beijing;
 
 
 
@@ -128,6 +129,14 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
     public void setGuangdong(String guangdong) {
         //settetr函数
         this.guangdong = guangdong;
+    }
+
+    public String getBeijing() {
+        return beijing;
+    }
+
+    public void setBeijing(String beijing) {
+        this.beijing = beijing;
     }
 
     public void Dialog(String msg) {
