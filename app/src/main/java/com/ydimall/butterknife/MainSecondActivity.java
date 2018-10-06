@@ -82,7 +82,7 @@ public class MainSecondActivity extends AppCompatActivity implements CommandCall
         Log.i("TAG", msg);
         //2018-10-06 V1.0.4
         //V1.0.5
-        //v1.0.6
+        //v1.0.6  --Louis
     }
 
     @Override
